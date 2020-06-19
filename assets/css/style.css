@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Playball&display=swap');
+
+body {
+	max-width: 800px;
+  margin: auto;
+	padding: 8px 10% 0px 10%   
+}
+
+#plot {
+	text-align: left;
+	line-height: 2em;
+    font-family: 'Merriweather', serif; 
+    font-weight: 400; 
+    font-style: normal;
+    font-size: 1em;
+}
+
+#title {
+    text-align: center;
+    padding: 25px 25px 0px 25px;
+	line-height: 2em;
+    font-family: 'Playball', cursive;
+    font-weight:400;
+    font-size: 2em;
+}
+
+#header {
+    position: float;
+    text-align: center;
+    font-style: italic;
+	line-height: 2em;
+    font-family: 'Merriweather', serif;	font-weight: 400;
+	font-size: 1.25em;
+}
+
+#SidebarBtn {
+	position: fixed;
+	top: 6px;
+	left: 6px;
+	color: #999;
+	font-size: 2em;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#SidebarBtn a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#SidebarBtn a:hover {
+    color: darkgrey;
+}
+
+#footer {
+	position: fixed;
+	top: -80px;
+	left: 0px;
+	background-color: #666;
+	width: 100%;
+	color: #fff;
+    font-family: 'Merriweather', serif;	
+    font-style: italic;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#about {
+	background-color: #fff;
+	padding: 2em;
+    font-family: 'Merriweather', serif;	
+    font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+    line-height: 1.5em;
+}
+
+#about a {
+	text-decoration: none;
+}
+
+#aboutAuthor {
+    text-align: center;
+}
+
+#aboutAuthor a {
+    text-decoration: none;
+    color: #666;
+}
+
+#aboutAuthor a:hover {
+    color: darkgray;
+}
+
+#aboutTitle {
+    font-family: 'Playball', cursive;	
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#aboutDescription {
+    margin: 20px 0px 20px 0;
+}
+
+#aboutClose {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#aboutClose a{
+    color: #666;
+}
+
+#aboutClose a:hover {
+    color: darkred;
+}
+
+span.avoidwrap { display:inline-block; }
