@@ -1,2 +1,2 @@
 # ticocd
-ticocd plus r2js
+ticocd w r2js
