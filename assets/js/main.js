@@ -3,26 +3,25 @@ let gr, count = 0, footerPosition = 'above', fetching = false;
 //////////////////////////////////////////////////////////////////
 
 let context = {
+  qq: (s) => '<q>' + s + '</q>',
   randomJob: () => faker.company.companyName(),
   catchPhrase: () => faker.company.catchPhrase(),
   pluralNoun: () => RiTa.randomWord({ pos: 'nns' }),
-  randomAdjective: () => RiTa.randomWord({ pos: 'jj' }),
+  randomAdjective: () => RiTa.randomWord({ pos: 'jjs' }),
   randomPosition: () => faker.name.jobArea() + " " + faker.name.jobType(),
-  randomPerson: () => faker.name.firstName() + " " + faker.name.lastName(),
   randomPosition: () => faker.name.jobArea() + " " + faker.name.jobType(),
-  randomLocation: () => faker.address.city() + ", " + faker.address.state()
+  randomLocation: () => faker.address.city() + ", " + faker.address.state(),
+  randomPerson: () => faker.name.firstName() + " " + faker.name.lastName()
 };
 
 window.onload = () => {
-  gr = new RiTa.Grammar(grammar);
-  gr.addTransform(context);
+  gr = new RiTa.Grammar(grammar, context);
   generate();
-
 }
 
 function generate() {
   let plot = document.getElementById('plot');
-  plot.innerHTML += '<li>'+gr.expand()+'</li>';
+  plot.innerHTML += '<li>' + gr.expand() + '</li>';
   if (++count < 25) setTimeout(generate, 50);
 }
 

@@ -12,7 +12,7 @@ let context = {
   randomPosition: () => faker.name.jobArea() + " " + faker.name.jobType(),
   randomPosition: () => faker.name.jobArea() + " " + faker.name.jobType(),
   randomLocation: () => faker.address.city() + ", " + faker.address.state(),
-  randomPerson: () => RiTa.articlize(faker.name.firstName()) + " " + faker.name.lastName()
+  randomPerson: () => faker.name.firstName() + " " + faker.name.lastName()
 };
 
 let rg = new RiTa.Grammar(grammar, context);
