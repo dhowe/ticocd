@@ -8,6 +8,7 @@ https://rednoise.org/ticocd/
 $ git clone https://github.com/dhowe/ticocd.git
 $ cd ticocd
 then open 'index.html' in your browser (via a local webserver)
+(note: use chrome-based browsers for now)
 ```
 
 ### node
