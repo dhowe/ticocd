@@ -1,9 +1,9 @@
-# ticocd
+## TICOCD
 
 ## to run in browser
 ```
-open index.html in a local webserver
-(or view [this page](https://rednoise.org/ticocd/))
+open index.html in your browser via a local webserver
+or open: https://rednoise.org/ticocd/
 ```
 
 ## to run in node
