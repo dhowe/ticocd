@@ -1,6 +1,6 @@
 let grammar = {
 
-    "start": '$college',//$child | $teen | $college | $adult | $event",
+    "start": "$child | $teen | $college | $adult | $event",
 
     "child": "[$chosen=$person] $childVariation. $chosen $misses. $wistful",
 
