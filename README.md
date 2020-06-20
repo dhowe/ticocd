@@ -3,7 +3,7 @@
 ## to run in browser
 ```
 open index.html in a local webserver
-or view [http://rednoise.org/ticocd/](this page)
+(or view [this page](https://rednoise.org/ticocd/))
 ```
 
 ## to run in node
