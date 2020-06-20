@@ -1,13 +1,19 @@
 ## TICOCD
 
+### online
+https://rednoise.org/ticocd/
+
 ### browser
 ```
-open index.html in your browser via a local webserver
-or open: https://rednoise.org/ticocd/
+$ git clone https://github.com/dhowe/ticocd.git
+$ cd ticocd
+then open 'index.html' in your browser (via a local webserver)
 ```
 
 ### node
 ```
+$ git clone https://github.com/dhowe/ticocd.git
+$ cd ticocd
 $ npm install
 $ node ticocd
 ```
