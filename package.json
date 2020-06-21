@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "faker": "^4.1.0",
-    "rita": "^2.0.0-beta.26"
+    "rita": "^2.0.0-beta.27"
   }
 }
